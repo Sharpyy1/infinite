@@ -1,35 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .heading{
     font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    background-image: url("./bg.jpeg");
+    background-size:cover;
 }
 .heading h1{
     font-weight: 700;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 20px;
     font-size: 46px;
 }
 .heading p{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
+    margin:0px 1rem 10px;
+    text-align: center;
     font-weight: 400;
     font-size: 18px;
-    
+}
+.infinite-scroll-component{
+  overflow:hidden!important;
 }
 .image{
     max-width: 75rem;
-    margin: 4rem auto;
+    margin: 3rem auto;
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     gap: 1rem;
+
 }
 .image img{
     object-fit: cover;
-    height: 100%;
+    height: auto;
     width: 18rem;
 }
 /* ################################################################### */
